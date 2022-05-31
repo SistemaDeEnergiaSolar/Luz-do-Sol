@@ -8,19 +8,22 @@
 
 .top-full{
     padding: 0.1px;
-    background-image: url(./imgs/banner.jpg);
+    background-image: url("C:/Users/PIPOCA/Documents/COISAS%20DO%20LUIS/LuzDoSol_1.1/imgs/banner.jpg");
     background-size: cover;
+    background-position: center;
     opacity: 1;
     background-attachment: fixed;
 }
     .container-retina {
+        opacity: 0.7;
         padding: 0.1px;
+        background-color: #000;
     }
 
     .j-div {
-        padding: 1% 5%;
-        margin: 20% 25%;
-        background-color: rgba(0, 0, 0, 0.671);
+        padding: 2% 3%;
+        margin: 10% 0;
+        background: none !important;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -276,16 +279,54 @@
 }
 
 @media (max-width: 500px) {
+    #mainNav {
+        padding: 10%;
+    }
+
+    .font-logo {
+        font-size: 1.6rem;
+    }
+
+    .j-div {
+        background: none !important;
+        padding: 30% 10%;
+        margin: 60% 0% 40% 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
     .px-4{
-        font-size: small !important;
+        font-size: 1.2rem !important;
     }
 
     .j-title {
-        font-size: calc(14px + 2vw);
+        font-size: calc(24px + 3vw);
+        text-align: left;
+    }
+
+    .j-text {
+        text-align: left;
+        font-size: calc(7px + 2vw);
+        line-height: 2;
+    }
+
+    .j-buttom {
+        font-size: calc(10px + 2vw);
+        font-weight: 400;
+    }
+
+    .about-full {
+        padding: 40% 0% 20%;
     }
 
     .title-about {
-        font-size: calc(12px + 2vw);
+        font-size: calc(20px + 2vw);
+    }
+
+    .p-about {
+        padding: 4% 15%;
+        font-size: calc(7px + 2vw);
     }
 
     .h2-style {
@@ -293,12 +334,12 @@
     }
 
     img.card-icons {
-        width: 25px;
-        height: 25px;
+        width: 70px;
+        height: 70px;
     }
 
     p.text-icons {
-        font-size: calc(3px + 1vw);
+        font-size: calc(6px + 2vw);
     }
 
     .col-portifolio {
