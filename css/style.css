@@ -1,29 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: 'Nunito', sans-serif !important;
+}
+
 .top-full{
     padding: 0.1px;
-    background-image: url("../imgs/banner.jpg");
+    background-image: url("C:/Users/PIPOCA/Documents/COISAS%20DO%20LUIS/LuzDoSol_1.1/imgs/banner.jpg");
     background-size: cover;
     background-position: center;
     opacity: 1;
     background-attachment: fixed;
 }
     .container-retina {
-        opacity: 0.7;
         padding: 0.1px;
-        background-color: #000;
     }
 
     .j-div {
         padding: 2% 3%;
         margin: 10% 0;
-        background: none !important;
+        background-color: rgba(0, 0, 0, 0.7);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -32,7 +35,7 @@
     .j-title {
         color: #2ec289;
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Fredoka One', cursive;
         font-size: calc(22px + 2vw);
     }
 
@@ -112,6 +115,7 @@
 
     .h2-style {
         font-size: calc(18px + 2vw);
+        font-family: 'Montserrat', sans-serif;
     }
 
     .row-imgs {
@@ -183,11 +187,15 @@
     }
 
     
-
-#title-video {
-    font-size: calc(10px + 1.2vw);
+.video-full {
+    padding: 0;
 }
+    #title-video {
+        font-family: 'Montserrat', sans-serif;
+        font-size: calc(18px + 2vw);
+    }
     #p-video {
+        font-family: 'Montserrat', sans-serif;
         font-size: calc(6px + 1.2vw);
         padding: 2% 20% 1%;
     }
@@ -229,19 +237,31 @@
         margin: 2% 5% 5%;
     }
 
+    .contact-col {
+        padding: 4% 4%;
+        line-height: 1;
+    }
+
+    strong.sub-title {
+        color: #fff;
+        font-size: calc(4px + 1vw);
+    }
+
+    strong.sub-title2 {
+        color: #fff;
+        font-size: calc(4px + 1vw);
+    }
+
     span.contact{
         color: #fff;
         font-family: Arial, Helvetica, sans-serif;
         font-size: calc(2px + 1vw);
-        margin: 20% 5% 5%;
-        display: block;
     }
 
     .nav-menu {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin: 10% 5% 5%;
+        justify-content: flex-start;
         font-family: Arial, Helvetica, sans-serif;
         font-size: calc(4px + 1vw);
     }
@@ -279,8 +299,9 @@
 }
 
 @media (max-width: 500px) {
+    
     #mainNav {
-        padding: 10%;
+        padding: 6%;
     }
 
     .font-logo {
@@ -329,10 +350,6 @@
         font-size: calc(7px + 2vw);
     }
 
-    .h2-style {
-        font-size: calc(12px + 2vw);
-    }
-
     img.card-icons {
         width: 70px;
         height: 70px;
@@ -342,8 +359,16 @@
         font-size: calc(6px + 2vw);
     }
 
+    .portfolio-full{
+        padding: 35% 4% 10%;
+    }
+
     .col-portifolio {
         padding: 2% 15% !important;
+    }
+
+    .h2-style {
+        font-size: calc(20px + 2vw);
     }
 
     .card-imgs {
@@ -355,9 +380,22 @@
         font-size: 1rem;
     }
 
+    .video-full {
+        padding: 20% 4%;
+    }
+
     #video {
         height: 300px;
         margin-bottom: 26%;
+    }
+
+    .row-icons-divulga {
+        padding: 50% 35% 20%;
+    }
+
+    #p-video {
+        font-size: calc(6px + 2vw);
+        padding: 4%; 
     }
 
     img.card-icons-divulga {
@@ -366,10 +404,37 @@
     }
 
     strong.name-layout {
-        font-size: calc(10px + 1.1vw);
+        margin: 10% 5% 5%;
+        font-size: calc(10px + 2vw);
+    }
+
+    span.name-copyrigth {
+        font-size: calc(3px + 1.6vw);
+    }
+
+    .hr-style-footer {
+        display: flex !important;
+    }
+
+    .contact-col {
+        margin: 0% 0% 10% 10%;
+        padding: 0;
+    }
+
+    strong.sub-title {
+        font-size: calc(5px + 1.6vw);
+    }
+
+    span.contact {
+        font-size: calc(2px + 1.6vw);
+    }
+
+    strong.sub-title2 {
+        font-size: calc(5px + 1.6vw);
+        padding: 12%
     }
 
     .nav-menu {
-        line-height: 0;
+        line-height: 0.2;
     }
 }

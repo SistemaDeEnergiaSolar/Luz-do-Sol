@@ -7,6 +7,8 @@
     <title>Luz do Sol</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="./imgs/sol-icon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -15,11 +17,11 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" 
         style="background-color: rgba(0, 10, 10, 0.7) !important;">
         <div class="container px-4">
-            <a class="navbar-brand font-logo" href="#home">Luz do Sol</a>
+            <a class="navbar-brand font-logo" href="#home"><i style="margin-right: 15%;" class="fas fa-sun fa-1x fa-margin"></i>Luz do Sol</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">Sobre nos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre nós</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Instalações</a></li>
                     <li class="nav-item"><a class="nav-link" href="#video">O que é energia solar?</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contatos</a></li>
@@ -43,7 +45,7 @@
     <!--Sobre-->
     <section id="about">
         <div class="content-fluid about-full" >
-            <h2 class="w-100 text-center title-about"> Sobre nos</h2>
+            <h2 class="w-100 text-center title-about"> Sobre nós</h2>
             <hr width="5%" style="margin-left: 50%;  border-top: 10px solid #2ec289; opacity: 1;">
             <p class="lead text-center p-about">Somos uma empresa que já está no mercado à 30 anos com referência em sistema de aquecedor solar de água, agora possível sistemas fotovoltaícos, aquecimento de piscina e toda credibilidade em caixa d'água.<br>
                 Temos experiência e conhecimento do mercado solar, profissionais gabaritados, prontos para melhor atender pessoas como você, que busca melhor preço, economia de energia e confiabilidade para o seu projeto.
@@ -141,7 +143,7 @@
     
     <!--Video-->
     <section id="video">
-        <div class="content-fluid about-full">
+        <div class="content-fluid video-full">
             <h2 class="w-100 text-center title-about" id="title-video"> Afinal, qual a vantagem de ter energia solar?</h2>
             <p class="lead text-center p-about" id="p-video">Confira neste vídeo explicativo as vantagens de possuir energia solar em sua casa</p>
             <iframe id="video" width="100%" height="600" style="margin: 0 auto; display: block; padding: 2% 10%;" src="https://www.youtube.com/embed/rDAmwZ5PMmk" 
@@ -183,23 +185,31 @@
     <!--Footer-->
     <div class="container-fluid footer-full">
         <div class="row">
-            <div class="col-4">
+            <div class="col-xl-4">
                 <strong class="name-layout">
-                    Luz do Sol
+                    Luz do Sol <img style="width: 20px; margin-left: 2%;" src="./imgs/sol-icon.png">
                 </strong>
                 <span class="name-copyrigth">
                     ©2022 Todos os Direitos Reservados.<br>
                     Dev: Luis Thiago - luisthiago147@gmail.com
                 </span>
             </div>
-            <div class="col-4">
+            <hr class="hr-style-footer" width="100%" style=" border-top: 1px solid #2ec289; opacity: 1; display: none;">
+            <div class="col-4 contact-col">
+                <strong class="sub-title">
+                    Localização
+                </strong>
+                <br>
                 <span class="contact">
                     Lenitateles@yahoo.com.br <br>
                     (61) 3333-6621 <br>
                     QN 14D CONJ.03 LOTE 07 RIACHO FUNDO II
                 </span>
             </div>
-            <div class="col-4">
+            <div class="col-4 contact-col">
+                <strong class="sub-title2">
+                    Site Map
+                </strong>
                 <ul class="nav flex-collumn nav-menu">
                     <li class="nav-item">
                         <a href="#home" class="nav-link">Início</a>
